@@ -1,0 +1,38 @@
+{
+  "name": "is-webgl-context",
+  "version": "1.0.0",
+  "description": "whether the given object is a WebGL context",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.0",
+    "webgl-context": "^1.2.1"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "is",
+    "webgl",
+    "gl",
+    "glsl",
+    "shader",
+    "context",
+    "ctx",
+    "experimental-webgl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/is-webgl-context.git"
+  },
+  "homepage": "https://github.com/mattdesl/is-webgl-context",
+  "bugs": {
+    "url": "https://github.com/mattdesl/is-webgl-context/issues"
+  }
+}
