@@ -1,6 +1,6 @@
 {
   "name": "is-webgl-context",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "whether the given object is a WebGL context",
   "main": "index.js",
   "license": "MIT",
