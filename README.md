@@ -2,7 +2,9 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-Test whether the given object is a WebGL context. This is useful to handle edge-cases, such as when [Chrome WebGL Inspector](https://chrome.google.com/webstore/detail/webgl-inspector/ogkcjmbhnfmlnielkjhedpcjomeaghda?hl=en) wraps WebGLRenderingContext in a different type. 
+Test whether the given object is a WebGL or WebGL2 context. This is useful to handle edge-cases, such as when [Chrome WebGL Inspector](https://chrome.google.com/webstore/detail/webgl-inspector/ogkcjmbhnfmlnielkjhedpcjomeaghda?hl=en) wraps WebGLRenderingContext in a different type. 
+
+Runs in Node and the browser.
 
 ```js
 var isGL = require('is-webgl-context')
@@ -16,7 +18,7 @@ isGL(foo)
 
 #### `isGLContext(obj)`
 
-Returns true if the object is an instance of WebGLRenderingContext, handling edge cases for WebGL debuggers/inspectors. 
+Returns true if the object is an instance of WebGL[2]RenderingContext, handling edge cases for WebGL debuggers/inspectors. 
 
 ## License
 

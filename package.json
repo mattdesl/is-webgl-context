@@ -11,11 +11,15 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "browserify": "^8.1.0",
+    "faucet": "0.0.1",
+    "smokestack": "^3.1.0",
+    "tap-closer": "^1.0.0",
     "tape": "^3.0.0",
     "webgl-context": "^1.2.1"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "browserify test.js | tap-closer | smokestack | tap-spec "
   },
   "keywords": [
     "is",
